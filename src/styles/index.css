@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#text {
+  font-family: "Qwigley", cursive;
+}
+.card-body {
+    max-width: 600px;
+}

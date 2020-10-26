@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="App vh-100">
+      <div className="background-rect"></div>
       <div className="container px-4 d-flex justify-content-center align-items-center h-100">
         <CardQuote
           text={textQuote}

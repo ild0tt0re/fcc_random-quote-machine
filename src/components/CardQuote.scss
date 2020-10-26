@@ -1,0 +1,7 @@
+@import '../styles/custom.scss';
+
+@include media-breakpoint-up(md) {
+  .card {
+    width: 602px;
+  }
+}

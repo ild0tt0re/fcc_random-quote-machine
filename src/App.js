@@ -1,7 +1,6 @@
-// import { ReactComponent as Logo } from './assets/logo.svg';
 import { useEffect, useState } from 'react';
 import { CardQuote } from './components/CardQuote';
-import './styles/App.css';
+import './styles/App.scss';
 
 function App() {
   const [textQuote, setTextQuote] = useState('');
@@ -13,7 +12,7 @@ function App() {
 
   function fetchQuote() {
     const url =
-      'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json';
+      'https://gist.githubusercontent.com/ild0tt0re/21a9102be49ef1308232c5e24d40d06e/raw/c1a4bbd815d2dbc239d51daf8610e34c5dddd446/fcc-quotes.json';
     fetch(url)
       .then((data) => data.json())
       .then((res) => {
